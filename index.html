@@ -59,7 +59,7 @@
     <script src="assets/heibukayuk/script.js"></script>
 
     <script type="text/javascript">
-        async function jawab() { await swals.fire('Kirim pesan ke WhatsApp aku, ya!'); window.location = "https://wa.me/6282335099720" + pesanwhatsapp; }
+        async function jawab() { await swals.fire('Kirim pesan ke WhatsApp aku, ya!'); window.location = "https://api.whatsapp.com/send?phone=6282335099720&text=" + pesanwhatsapp; }
 
         async function pertama() {
         audio = new Audio('assets/music/almostday.mp3'); setTimeout(showDiv, 100);
