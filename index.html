@@ -6,7 +6,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
     <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
-    <link href="/assets/heibukayuk/style.css" rel="stylesheet" type="text/css" />
+    <link href="assets/heibukayuk/style.css" rel="stylesheet" type="text/css" />
 
     <head>
     <title>Hayy Putri</title>
@@ -16,29 +16,29 @@
 
     <div id="bodyblur">
         <!-- Wallpaper / Background -->
-        <img src="/assets/images/pics/danau.webp" id="wallpaper" />
+        <img src="assets/images/pics/danau.webp" id="wallpaper" />
     </div>
 
     <div class="kumpulanstiker">
         <!-- Stiker untuk Konten -->
-        <img src="/assets/images/bunga.gif" id="fotoakhir1" />
-        <img src="/assets/images/mndkat.gif" id="fotoakhir2" />
-        <img src="/assets/images/cartoons.gif" id="fotoakhir3" />
-        <img src="/assets/images/tinju.gif" id="fotoakhir4" />
-        <img src="/assets/images/tos.gif" id="fotoakhir5" />
+        <img src="assets/images/bunga.gif" id="fotoakhir1" />
+        <img src="assets/images/mndkat.gif" id="fotoakhir2" />
+        <img src="assets/images/cartoons.gif" id="fotoakhir3" />
+        <img src="assets/images/tinju.gif" id="fotoakhir4" />
+        <img src="assets/images/tos.gif" id="fotoakhir5" />
     </div>
 
     <div id='Content'>
 
         <div id="suratin" onClick="memulai();audio.play();">
         <!-- Surat -->
-        <img src="/assets/images/envelope.png" />
+        <img src="assets/images/envelope.png" />
         </div>
         <p id="ket">Klik Suratnya!</p>
 
         <div>
             <!-- Foto Akhir -->
-            <img src="/assets/images/tos.gif" id="fotoakhir" />
+            <img src="assets/images/tos.gif" id="fotoakhir" />
         </div>
         <div>
         <blockquote id='bq'>
@@ -56,13 +56,13 @@
 
     </div>
 
-    <script src="/assets/heibukayuk/script.js"></script>
+    <script src="assets/heibukayuk/script.js"></script>
 
     <script type="text/javascript">
         async function jawab() { await swals.fire('Kirim pesan ke WhatsApp aku, ya!'); window.location = "https://api.whatsapp.com/send?phone=&text=" + pesanwhatsapp; }
 
         async function pertama() {
-        audio = new Audio('/assets/music/almostday.mp3'); setTimeout(showDiv, 100);
+        audio = new Audio('assets/music/almostday.mp3'); setTimeout(showDiv, 100);
         } pertama();
 
         async function pesan() {
